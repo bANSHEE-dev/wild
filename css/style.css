@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Roboto', sans-serif;  */
+}
+
+header {
+  background-image: url("../images/bg-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 780px;
+}
