@@ -15,38 +15,123 @@
 </head>
 
 <body>
-
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <div class="logo__link">
-          <img src="images/logo.svg" alt="logo">
+        <a class="logo">
+          <img class="logo__img" src="images/logo.svg" alt="logo">
           wildlife
-        </div>
+        </a>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#"><img src="images/search.svg" alt="search"></a></li>
+          <ul class="menu__list">
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Blog</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Contacts</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#"><img src="images/search.svg"
+                  alt="search"></a></li>
           </ul>
         </nav>
-        <div class="sign-btn">
-          Sign in
+        <div class="user-nav">
+          <a class="user-nav__link" href="#">Sign in</a>
         </div>
       </div>
-
-      <div class="top__title">
-        <h1>Survival</h1>
-        <div class="top__text">
+      <div class="top">
+        <h1 class="top__title">Survival</h1>
+        <div class="top__title-text">
           What this means is that we exist to help protect our environment and do in numbers of ways. You can save the
           planet by donation.
         </div>
-        <div class="top__btn">
-          Donate
+        <div class="top__title-btn">
+          <a class="top-btn" href="#">Donate</a>
         </div>
       </div>
     </div>
   </header>
+
+  <section class="articles">
+    <div class="container">
+      <div class="articles__title">
+        Latest articles
+      </div>
+      <div class="articles__subtitle">
+        Breaking news from the wild
+      </div>
+      <div class="articles__cards">
+        <a href="#"><img class="arrows arrow-left" src="images/arrow-left.png" alt="arrow"></a>
+        <div class="articles__card">
+          <img class="articles__card-img" src="images/card-1.jpg" alt="animal">
+          <div class="description">
+            <div class="articles__card-animal">
+              Deer
+            </div>
+            <div class="articles__card-animal-descr">
+              Naturalist investigation
+            </div>
+          </div>
+
+        </div>
+
+        <div class="articles__card">
+          <img class="articles__card-img" src="images/card-2.jpg" alt="animal">
+          <div class="description">
+            <div class="articles__card-animal">
+              Squirrel
+            </div>
+            <div class="articles__card-animal-descr">
+              Kamikaze squirrels
+            </div>
+          </div>
+        </div>
+
+        <div class="articles__card">
+          <img class="articles__card-img" src="images/card-3.jpg" alt="animal">
+          <div class="description">
+            <div class="articles__card-animal">
+              Bird
+            </div>
+            <div class="articles__card-animal-descr">
+              Birds Fight club
+            </div>
+          </div>
+          <a href="#"><img class="arrows arrow-right" src="images/arrow-right.png" alt="arrow"></a>
+        </div>
+      </div>
+
+      <div class="get__notified">
+        Get notified about new amazing articles
+      </div>
+      <div class="input-form">
+        <input class="input__send" type="text" placeholder="Email"> <input type="submit" class="input-btn" value="Send">
+      </div>
+  </section>
+
+  <section class="footer">
+    <div class="container">
+      <div class="footer__menu">
+        <a class="footer__logo">
+          <img class="footer__logo__img" src="images/logo.svg" alt="logo">
+          <span>wildlife</span>
+        </a>
+
+        <nav class="footer__nav">
+          <ul class="footer__menu__list">
+            <li class="footer__menu-list-item"><a class="menu__list-link" href="#">Articles</a></li>
+            <li class="footer__menu-list-item"><a class="menu__list-link" href="#">About us</a></li>
+            <li class="footer__menu-list-item"><a class="menu__list-link" href="#">Learn more</a></li>
+          </ul>
+        </nav>
+
+
+        <!-- <div class="footer__social">
+          <a class="footer__social-link" href="#"><img class="footer__social-item" src="images/facebook.svg" alt="facebook"></a>
+          <a class="footer__social-link" href="#"><img class="footer__social-item" src="images/instagramm.svg" alt="facebook"></a>
+          <a class="footer__social-link" href="#"><img class="footer__social-item" src="images/patreon.svg" alt="facebook"></a>
+          <a class="footer__social-link" href="#"><img class="footer__social-item" src="images/telegram.svg" alt="facebook"></a>
+        </div>
+      </div> -->
+
+      </div>
+
+  </section>
 
 
 
