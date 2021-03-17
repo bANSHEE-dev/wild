@@ -133,6 +133,14 @@ header {
   text-decoration: none;
 }
 
+.top__title-btn:hover {
+  transition: 1s ease-in-out;
+  background: orange;
+}
+/* .top-btn:hover {
+  color: #cd6326;
+} */
+
 .top-btn {
   color: #f7f7f7;
   font-size: 23px;
