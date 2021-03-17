@@ -77,6 +77,10 @@ header {
   color: #f7f7f7;
 }
 
+.menu__list-link:hover {
+  color: #cd6326;
+}
+
 .user-nav {
   margin-left: 61px;
   margin-right: 120px;
